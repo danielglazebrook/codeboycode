@@ -16,7 +16,7 @@ body {
 }
 
 main {
-	overflow: scroll;
+	overflow: auto;
 }
 
 .container-large {
