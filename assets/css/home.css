@@ -1,0 +1,11 @@
+main.home {
+	align-items: center;
+	display: flex;
+	height: 100%;
+	justify-content: center;
+}
+
+main.home img {
+	max-width: 670px;
+	width: 100%;
+}
