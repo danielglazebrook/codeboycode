@@ -1,0 +1,118 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeBoyCode</title>
+    <link rel="shortcut icon" type="image/jpg" href="assets/images/favicon.png"/>
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=montserrat:full,300,500,700,800" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                fontFamily: {
+                    'primary': ['Montserrat', 'sans-serif'],
+                },
+                extend: {
+                    colors: {
+                        'primary': '#B8BACF',
+                        'secondary': '#D2D5DD',
+                        'dark': '#210124',
+                    },
+                }
+            }
+        }
+      </script>
+</head>
+
+<body class="font-primary bg-primary flex flex-col justify-between h-screen">
+
+    <header class="bg-white py-4 md:py-8 flex items-center justify-center">
+        <a href="/codeboycode2.0/" class="text-xl font-bold"><span class="animate-pulse">CodeBoyCode</span></a>
+    </header>
+
+    <nav class="flex-1">
+        <ul class="flex flex-wrap lg:flex-nowrap">
+            <li class="w-2/4 h-16 md:h-20 border border-solid border-black lg:w-1/5">
+                <a href="/work" class="w-full h-full flex items-center justify-center"><span class="underline">Work</span></a>
+            </li>
+            <li class="w-2/4 h-16 md:h-20 border border-l-0 border-solid border-black lg:w-1/5 lg:border-l-0">
+                <a href="/cv" class="w-full h-full flex items-center justify-center hover:underline"><span class="">CV</span></a>
+            </li>
+            <li class="w-full h-16 md:h-20 border-x border-solid border-black lg:w-1/5 lg:border-l-0 lg:border-y">
+                <a href="/portfolio.pdf" class="w-full h-full flex items-center justify-center hover:underline" target="_blank"><span class="">Portfolio</span></a>
+            </li>
+            <li class="w-2/4 h-16 md:h-20 border border-r-0 border-solid border-black lg:w-1/5 lg:border-l-0">
+                <a href="https://github.com/danielglazebrook" class="w-full h-full flex items-center justify-center hover:underline" target="_blank"><span class="">GitHub</span></a>
+            </li>
+            <li class="w-2/4 h-16 md:h-20 border border-solid border-black lg:w-1/5">
+                <a href="https://stackoverflow.com/users/10381160/codeboycode" class="w-full h-full flex items-center justify-center hover:underline" target="_blank"><span class="">Stack Overflow</span></a>
+            </li>
+        </ul>
+    </nav>
+
+	<main class="work container-large pt-14 bg-white lg:py-16">
+		<ul class="list-websites container px-4 md:mx-auto">
+			
+			<li class="item-website mb-20 flex flex-col text-left md:text-center md:items-center">
+				<figure class="website-images lg:flex lg:justify-between lg:flex-wrap">
+					<figcaption class="mb-8 md:max-w-lg lg:w-full lg:max-w-full lg:text-lg lg:mb-14 lg:text-left">
+						<a class="underline font-semibold" href="https://www.francisjacksonhomes.co.uk/" target="_blank">Francis Jackson Homes (2021)</a> - Frontend & Backend (solo project) - PHP, jQuery, Javascript, CSS (LESS)
+					</figcaption>
+                    <div class="w-full flex flex-col lg:flex-row">
+                        <img class="mb-4 drop-shadow-xl md:m-auto md:mb-12 lg:m-0 lg:mr-10 lg:w-2/6" src="assets/images/websites/francis-jackson-homes-1.jpg" alt="Francis Jackson Website">
+                        <img class="mb-4 drop-shadow-xl md:m-auto md:mb-12 lg:m-0 lg:mr-10 lg:w-2/6" src="assets/images/websites/francis-jackson-homes-2.jpg" alt="Francis Jackson Website">
+                        <img class="drop-shadow-xl md:m-auto lg:m-0 lg:w-2/6" src="assets/images/websites/francis-jackson-homes-3.jpg" alt="Francis Jackson Website">
+                    </div>
+                </figure>
+				<img class="w-10 pt-20 self-center" src="assets/images/arrow-down-icon.svg" alt="">
+			</li>
+			
+			<li class="item-website mb-20 flex flex-col text-left md:text-center md:items-center">
+				<figure class="website-images lg:flex lg:justify-between lg:flex-wrap">
+					<figcaption class="mb-8 md:max-w-lg lg:w-full lg:max-w-full lg:text-lg lg:mb-14 lg:text-left">
+						<a class="underline font-semibold" href="https://www.kingerlee.co.uk/" target="_blank">Kingerlee (2021)</a> - Frontend & Backend (solo project) - PHP, VueJS, jQuery, Javascript, CSS (SASS)</figcaption>
+					<div class="w-full flex flex-col lg:flex-row">
+                        <img class="mb-4 drop-shadow-xl md:m-auto md:mb-12 lg:m-0 lg:mr-10 lg:w-2/6" src="assets/images/websites/kingerlee-1.jpg" alt="Kingerlee Website 1">
+                        <img class="mb-4 drop-shadow-xl md:m-auto md:mb-12 lg:m-0 lg:mr-10 lg:w-2/6" src="assets/images/websites/kingerlee-2.jpg" alt="Kingerlee Website 2">
+                        <img class="drop-shadow-xl md:m-auto lg:m-0 lg:w-2/6" src="assets/images/websites/kingerlee-3.jpg" alt="Kingerlee Website 3">                
+                    </div>
+                </figure>
+				<img class="w-10 pt-20 self-center" src="assets/images/arrow-down-icon.svg" alt="">
+			</li>
+
+			<li class="item-website mb-20 flex flex-col text-left md:text-center md:items-center">
+				<figure class="website-images lg:flex lg:justify-between lg:flex-wrap">
+					<figcaption class="mb-8 md:max-w-lg lg:w-full lg:max-w-full lg:text-lg lg:mb-14 lg:text-left">
+						<a class="underline font-semibold" href="https://www.kingerleejoinery.co.uk/" target="_blank">Kingerlee Joinery (2021)</a> - Frontend & Backend (solo project) - PHP, VueJS, jQuery, Javascript, CSS (SASS)</figcaption>
+					
+                    <div class="w-full flex flex-col lg:flex-row">
+                        <img class="mb-4 drop-shadow-xl md:m-auto md:mb-12 lg:m-0 lg:mr-10 lg:w-2/6" src="assets/images/websites/kingerlee-joinery-1.jpg" alt="Kingerlee Joinery Website 1">
+					    <img class="mb-4 drop-shadow-xl md:m-auto md:mb-12 lg:m-0 lg:mr-10 lg:w-2/6" src="assets/images/websites/kingerlee-joinery-2.jpg" alt="Kingerlee Joinery Website 2">
+					    <img class="drop-shadow-xl md:m-auto lg:m-0 lg:w-2/6" src="assets/images/websites/kingerlee-joinery-3.jpg" alt="Kingerlee Joinery Website 3">
+                    </div>
+				</figure>
+				<img class="w-10 pt-20 self-center" src="assets/images/arrow-down-icon.svg" alt="">
+			</li>
+
+			<li class="item-website flex flex-col text-left md:text-center md:items-center">
+				<figure class="website-images lg:flex lg:justify-between lg:flex-wrap">
+					<figcaption class="mb-8 md:max-w-lg lg:w-full lg:max-w-full lg:text-lg lg:mb-14 lg:text-left">
+						<a class="underline font-semibold" href="https://www.kingerleehomes.co.uk/" target="_blank">Kingerlee Homes (2022)</a> - Frontend & Backend (solo project) - PHP, VueJS, jQuery, Javascript, CSS (SASS)</figcaption>
+                    <div class="w-full flex flex-col lg:flex-row">
+                        <img class="mb-4 drop-shadow-xl md:m-auto md:mb-12 lg:m-0 lg:mr-10 lg:w-2/6" src="assets/images/websites/kingerlee-homes-1.jpg" alt="Kingerlee Homes Website 1">
+                        <img class="mb-4 drop-shadow-xl md:m-auto md:mb-12 lg:m-0 lg:mr-10 lg:w-2/6" src="assets/images/websites/kingerlee-homes-2.jpg" alt="Kingerlee Homes Website 2">
+                        <img class="drop-shadow-xl md:m-auto lg:m-0 lg:w-2/6" src="assets/images/websites/kingerlee-homes-3.jpg" alt="Kingerlee Homes Website 3">
+                    </div>
+				</figure>
+				<h3 class="text-lg py-20 text-center">More coming soon...maybe yours?</h3>
+			</li>
+		</ul>
+	</main>
+
+    <footer class="text-center text-xs py-5 md:py-7 flex items-center justify-center lg:text-sm">
+        <span>Copyright CodeBoyCode 2023</span>
+    </footer>
+</body>
+</html>

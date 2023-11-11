@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeBoyCode</title>
+    <link rel="shortcut icon" type="image/jpg" href="assets/images/favicon.png"/>
+    <link rel="preconnect" href="https://fonts.bunny.net">
+    <link href="https://fonts.bunny.net/css?family=montserrat:full,300,500,700,800" rel="stylesheet" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                fontFamily: {
+                    'primary': ['Montserrat', 'sans-serif'],
+                },
+                extend: {
+                    colors: {
+                        'primary': '#B8BACF',
+                        'secondary': '#D2D5DD',
+                        'dark': '#210124',
+                    },
+                }
+            }
+        }
+      </script>
+</head>
+
+<body class="font-primary bg-primary flex flex-col justify-between h-screen">
+
+    <header class="bg-white py-4 md:py-8 flex items-center justify-center">
+        <a href="/codeboycode2.0/" class="text-xl font-bold"><span class="animate-pulse">CodeBoyCode</span></a>
+    </header>
+
+    <nav class="flex-1">
+        <ul class="flex flex-wrap lg:flex-nowrap">
+            <li class="w-2/4 h-16 md:h-20 border border-solid border-black lg:w-1/5">
+                <a href="/work" class="w-full h-full flex items-center justify-center hover:underline"><span class="">Work</span></a>
+            </li>
+            <li class="w-2/4 h-16 md:h-20 border border-l-0 border-solid border-black lg:w-1/5 lg:border-l-0">
+                <a href="/cv" class="w-full h-full flex items-center justify-center hover:underline"><span class="">CV</span></a>
+            </li>
+            <li class="w-full h-16 md:h-20 border-x border-solid border-black lg:w-1/5 lg:border-l-0 lg:border-y">
+                <a href="/portfolio.pdf" class="w-full h-full flex items-center justify-center hover:underline" target="_blank"><span class="">Portfolio</span></a>
+            </li>
+            <li class="w-2/4 h-16 md:h-20 border border-r-0 border-solid border-black lg:w-1/5 lg:border-l-0">
+                <a href="https://github.com/danielglazebrook" class="w-full h-full flex items-center justify-center hover:underline" target="_blank"><span class="">GitHub</span></a>
+            </li>
+            <li class="w-2/4 h-16 md:h-20 border border-solid border-black lg:w-1/5">
+                <a href="https://stackoverflow.com/users/10381160/codeboycode" class="w-full h-full flex items-center justify-center hover:underline" target="_blank"><span class="">Stack Overflow</span></a>
+            </li>
+        </ul>
+    </nav>
+
+    <section class="bg-white h-full flex justify-center items-center">
+        <img class="max-w-sm sm:max-w-xl lg:max-w-lg" src="assets/images/untitled-1.jpg" alt="">
+    </section>
+
+    <footer class="text-center text-xs py-5 md:py-7 flex items-center justify-center lg:text-sm">
+        <span>Copyright CodeBoyCode 2023</span>
+    </footer>
+</body>
+</html>
